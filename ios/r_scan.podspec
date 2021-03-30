@@ -15,7 +15,7 @@ A new Flutter project.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'ZBarSDK','~>1.3.1'
+  s.dependency 'ZBarSDK', :git => "https://github.com/phucdanghuu/ZBar.git", :commit => "b82be9cf11ec7045472e69b033461de438c1aa35"
   s.dependency 'ZXingObjC','~>3.6.5'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
   s.ios.deployment_target = '8.0'
